@@ -1,5 +1,5 @@
 import { ErrorRequestHandler, Response } from 'express';
-import { HTTPSTATUS } from 'src/config/http.config';
+import { HTTPSTATUS } from '../config/http.config';
 
 export const errorHandler: ErrorRequestHandler = (error, req, res, next): any => {
   console.log(`Error occured on PATH: ${req.path}`, {
