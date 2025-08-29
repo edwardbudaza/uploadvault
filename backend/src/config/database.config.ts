@@ -1,4 +1,3 @@
-// db.ts
 import mongoose, { Connection } from 'mongoose';
 import { Env } from './env.config';
 import { logger } from '../utils/logger';
